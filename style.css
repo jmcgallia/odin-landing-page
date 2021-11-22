@@ -39,32 +39,43 @@ li {
 
 /* Hero Area */
 
+.hero-area {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.hero-area-text {
+    color: #F9FAF8;
+    flex: 1;
+}
+
+.hero-image {
+    background-color: black;
+    flex: 1;
+    padding: 30px;
+    height: 200px;
+    width: auto;
+}
+
+.hero-image img {
+    
+}
+
 h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
 
-.sign-up p {
+.hero-area-text p {
     font-size: 18px;
     color: #E5E7EB
 }
 
-.sign-up {
-    color: #F9FAF8;
-    flex: 2 1 auto;
-}
 
-.hero-area {
-    display: flex;
-    padding: 50px;
-    /*justify-content: space-between;*/
-}
 
-.main-title-image {
-    background-color: black;
-    flex: 1 1 300px;
-}
+
 
 /* Card Area */
 
@@ -143,7 +154,7 @@ h1 {
 }
 
 .action-area,
-.sign-up-button {
+button {
     background-color: #3882F6;
 }
 

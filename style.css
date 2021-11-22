@@ -6,53 +6,23 @@ body {
     height: 100vh;
 }
 
-.header,
-.main-title,
-.footer {
-    background-color: #1F2937;
-}
 
-.action-area,
-.sign-up-button {
-    background-color: #3882F6;
-}
-
-h1 {
-    font-size: 48px;
-    font-weight: 800;
-    color: #F9FAF8;
-}
-
-.sign-up p {
-    font-size: 18px;
-    color: #E5E7EB
-}
-
-.main-title-image {
-    background-color: black;
-    flex: 1 1 auto;
-}
+/* Header */
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 100px;
+    padding: 0 50px;
 }
 
-.header-name {
+.header-logo {
     font-size: 24px;
     font-weight: bolder;
 }
 
-.sign-up {
-    color: #F9FAF8;
-    flex: 2 1 auto;
-}
-
-
 ul,
-.header-name {
+.header-logo {
     color: #F9FAF8;
 }
 
@@ -65,20 +35,38 @@ li {
     margin-left: 20px;
 }
 
-.main-title {
+
+
+/* Hero Area */
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.sign-up p {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.sign-up {
+    color: #F9FAF8;
+    flex: 2 1 auto;
+}
+
+.hero-area {
     display: flex;
     padding: 50px;
     /*justify-content: space-between;*/
-
 }
 
-
-
-button {
-    width: 75px;
-    height: 32px;
-    border-radius: 10px;
+.main-title-image {
+    background-color: black;
+    flex: 1 1 300px;
 }
+
+/* Card Area */
 
 .card-section {
     display: flex;
@@ -116,6 +104,14 @@ button {
     height: 80%;
 }
 
+.card-text {
+    text-align: center;
+}
+
+
+
+/* Quote Area */
+
 .quote-area {
     background-color: #E5E7EB;
     display: flex;
@@ -123,9 +119,6 @@ button {
     align-items: center;
 }
 
-.card-text {
-    text-align: center;
-}
 
 .quote-area p {
     font-size: 36px;
@@ -136,3 +129,43 @@ button {
 .quote-author {
     margin-left: auto;
 }
+
+/* Call to action section */
+
+/* Footer */
+
+/* Common Styles */
+
+.header,
+.hero-area,
+.footer {
+    background-color: #1F2937;
+}
+
+.action-area,
+.sign-up-button {
+    background-color: #3882F6;
+}
+
+button {
+    width: 75px;
+    height: 32px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

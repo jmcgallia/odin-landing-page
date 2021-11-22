@@ -1,4 +1,71 @@
 body {
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.main-title,
+.footer {
+    background-color: #1F2937;
+}
+
+.action-area,
+.sign-up-button {
+    background-color: #3882F6;
+}
+
+.quote-area {
+    background-color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.header-name {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.sign-up {
+    color: #F9FAF8;
+}
+
+ul,
+.header-name {
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.main-title {
+    display: flex;
+    padding: 100px;
+    /*justify-content: space-between;*/
+
+}
+
+.main-title-image {
+    background-color: black;
+    height: 200px;
+    width: 400px;
+    margin-left: 200px;
+}
+
+button {
+    width: 75px;
+    height: 32px;
+    border-radius: 10px;
 }

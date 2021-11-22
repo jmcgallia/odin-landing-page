@@ -11,7 +11,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0 50px;
 }
@@ -48,18 +48,15 @@ li {
 .hero-area-text {
     color: #F9FAF8;
     flex: 1;
-}
 
-.hero-image {
-    background-color: black;
+}
+.hero-image-container {
     flex: 1;
-    padding: 30px;
-    height: 200px;
-    width: auto;
-}
 
+}
 .hero-image img {
-    
+    height: auto;
+    max-width: 100%;
 }
 
 h1 {

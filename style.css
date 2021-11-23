@@ -94,40 +94,46 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50vh;
+    padding: 25px;
 }
 
 .card-section-title {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+    padding: 25px;
 }
 
 .cards {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
+    flex: 1 1 0;
     
 }
 
 .card {
     
-    flex: 0 1 auto;
+    flex: 0 1 0;
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 200px;
+    /*align-items: center;*/
+    gap: 10px;
 }
 
-.card-image img{
+.card img{
     border-style: solid;
     border-color: burlywood;
     border-radius: 5px;
     width: 100%;
+    height: auto;
+    
 }
 
 .card-text {
     text-align: center;
+    width: 200px;
 }
 
 
@@ -145,11 +151,21 @@ h1 {
 .quote-area p {
     font-size: 36px;
     font-weight: light;
+    color: #1F2937;
     width: 50%;
+    padding-bottom: 0px;
 }
 
 .quote-author {
-    margin-left: auto;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.quote-author p {
+    flex: 0 1 auto;
+    font-style: italic;
+    font-size: 32px;
 }
 
 /* Call to action section */

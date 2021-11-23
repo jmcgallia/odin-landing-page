@@ -170,6 +170,26 @@ h1 {
 
 /* Call to action section */
 
+.action-box {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.action-content {
+    background-color: #3882F6;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up-button {
+    margin-right: 50px;
+}
+
+
 /* Footer */
 
 /* Common Styles */
@@ -180,7 +200,7 @@ h1 {
     background-color: #1F2937;
 }
 
-.action-area,
+
 button {
     background-color: #3882F6;
 }

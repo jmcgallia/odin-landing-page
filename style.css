@@ -13,12 +13,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 50px;
+    padding: 0 100px;
+    gap: 50px;
 }
 
 .header-logo {
     font-size: 24px;
     font-weight: bolder;
+}
+
+.header-logo,
+.nav-links {
+    width: 600px;
+    padding: 0;
+    flex: 0 1 auto;
 }
 
 ul,
@@ -28,6 +36,7 @@ ul,
 
 ul {
     display: flex;
+    justify-content: right;
 }
 
 li {
@@ -41,22 +50,27 @@ li {
 
 .hero-area {
     display: flex;
-    padding: 50px;
+    padding: 50px 100px;
     justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .hero-area-text {
     color: #F9FAF8;
-    flex: 1;
+    width: 600px;
+    flex: 0 1 auto;
 
 }
 .hero-image-container {
-    flex: 1;
+    width: 600px;
+    min-width: 275px;
+    flex: 0 1 auto;
 
 }
-.hero-image img {
+.hero-image-container img {
+    width: 100%;
     height: auto;
-    max-width: 100%;
 }
 
 h1 {
@@ -80,6 +94,13 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 50vh;
+}
+
+.card-section-title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
 }
 
 .cards {
@@ -88,28 +109,21 @@ h1 {
     gap: 50px;
     
 }
-.card-section-title {
-    font-size: 36px;
-    font-weight: extra-bold;
-    color: #1F2937;
-}
+
 .card {
     
-    flex-basis: 0;
-    flex-grow: 0;
-    flex-basis: auto;
+    flex: 0 1 auto;
     display: flex;
     flex-direction: column;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
-.card-image {
+.card-image img{
     border-style: solid;
     border-color: burlywood;
     border-radius: 5px;
     width: 100%;
-    height: 80%;
 }
 
 .card-text {

@@ -53,6 +53,7 @@ li {
     padding: 50px 100px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -145,6 +146,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 15px;
 }
 
 
@@ -154,6 +156,8 @@ h1 {
     color: #1F2937;
     width: 50%;
     padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 15px;
 }
 
 .quote-author {
@@ -178,19 +182,47 @@ h1 {
 
 .action-content {
     background-color: #3882F6;
-    width: 50%;
-    border-radius: 10px;
+    width: 60%;
+    border-radius: 6px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
+.action-text {
+    padding: 30px;
+}
+
+.action-content h2 {
+    padding: 0px;
+    margin: 0px;
+    color: #F9FAF8;
+}
+
+.action-content p {
+    padding: 0px;
+    margin: 0px;
+    color: #F9FAF8;
+}
 .sign-up-button {
-    margin-right: 50px;
+    
 }
 
 
 /* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.footer-text {
+    color: #F9FAF8;
+}
 
 /* Common Styles */
 
@@ -206,9 +238,13 @@ button {
 }
 
 button {
-    width: 75px;
-    height: 32px;
-    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    font-weight: 600;
+    font-size: large;
 }
 
 
